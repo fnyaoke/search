@@ -8,12 +8,12 @@
     border: 5px double white;
 }
 #full-name {
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.5em;
 }
 #username {
-    color: Black;
+    color: blue;
     font-size: 0.9em;
 }
 .repo-name {
@@ -21,7 +21,7 @@
     font-size: 1.5em;
 }
 .repo-desc {
-    color: Black;
+    color: blue;
 }
 #title {
     font-size: 2em;

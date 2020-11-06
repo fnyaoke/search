@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Users } from 'src/app/class/users';
-import { Repository } from 'src/app/class/repos';
+import { User } from 'src/app/classes/user';
+import { Repository } from 'src/app/classes/repository';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { IQuery } from '../interfaces/query';
@@ -8,12 +8,8 @@ import { IQuery } from '../interfaces/query';
 @Injectable({
   providedIn: 'root',
 })
-export class DataService {
-    public results: Users;
-    public repos = [];
-}
 export class RequestService {
-  public results: Users;
+  public results: User;
   public repos = [];
 
   private;
@@ -21,7 +17,7 @@ export class RequestService {
   constructor(private http: HttpClient) {}
 
   getRepos(query: IQuery) {
-    this.results = new Users(0, '', '', '', '');
+    this.results = new User(0, '', '', '', '');
     this.repos = [];
 
     let userUrl =
@@ -44,7 +40,7 @@ export class RequestService {
         resolve()
       },
       error=>{
-        this.repos = [new Repository(null, "Unavailable", new Users(0, null, null, null, null) , null)];
+        this.repos = [new Repository(null, "Unavailable", new User(0, null, null, null, null) , null)];
         console.log("No repository response from Github API");
         reject(error);
       })

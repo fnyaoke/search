@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Users } from 'src/app/class/users';
+import { User } from 'src/app/classes/user';
 import { IQuery } from 'src/app/interfaces/query';
-import { RequestService } from 'src/app/service/data.service';
+import { RequestService } from 'src/app/services/request.service';
 
 @Component({
   selector: 'app-search',

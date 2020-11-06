@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from "./about/about.component";
-import { SearchComponent } from './search/search.component';
+import { AboutComponent } from "./components/about/about.component";
+import { SearchComponent } from './components/search/search.component';
 
 const routes: Routes = [
   { path:"aboutDeveloper", component: AboutComponent },

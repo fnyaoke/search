@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, Query } from '@angular/core';
-import { RequestService } from "src/app/service/data.service";
+import { RequestService } from "src/app/services/request.service";
 import { IQuery } from "src/app/interfaces/query";
 
 @Component({
