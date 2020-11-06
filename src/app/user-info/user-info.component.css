@@ -13,7 +13,7 @@
     font-size: 1.5em;
 }
 #username {
-    color: rgb(120, 120, 120);
+    color: Black;
     font-size: 0.9em;
 }
 .repo-name {
@@ -21,7 +21,7 @@
     font-size: 1.5em;
 }
 .repo-desc {
-    color: rgb(120, 120, 120);
+    color: Black;
 }
 #title {
     font-size: 2em;

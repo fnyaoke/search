@@ -2,7 +2,7 @@
 html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
-  	background: #FFf;
+  	background: rgb(3, 77, 70);
   	margin: 0;
   	padding: 0;
 }
@@ -17,9 +17,9 @@ body a{
 
 /* Navbar Styling */
 nav.opaque-navbar{
-    background-color: #fff;
+    background-color: rgb(206, 192, 192);
     border-bottom: 0px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+    box-shadow: 0 4px 8px 0 rgba(3, 2, 70, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
     transition: background-color .5s ease 0s;
     height: 60px;
 }
