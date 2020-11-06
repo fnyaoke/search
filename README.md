@@ -4,6 +4,10 @@
 
 Florence Nyaoke
 
+## Live Link
+
+You can view the site on 'https://fnyaoke.github.io/search/'
+
 ## Description
 
 - This is a basic site that searches for the persons github repositories using their username.
